@@ -1,0 +1,19 @@
+declare module "*.jpg" {
+  const value: string;
+  return value;
+}
+
+declare module "*.jpeg" {
+  const value: string;
+  return value;
+}
+
+declare module "*.png" {
+  const value: string;
+  return value;
+}
+
+declare module "*.JPG" {
+  const value: string;
+  return value;
+}

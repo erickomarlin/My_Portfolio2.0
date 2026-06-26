@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap");
+@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-earth-sage: #606c38;
+  --color-earth-forest: #283618;
+  --color-earth-cream: #fefaed;
+  --color-earth-tan: #dda15e;
+  --color-earth-terracotta: #bc6c25;
+}
+* {
+  font-family: Outfit;
+}
+
+.font-playfair {
+  font-family: Playfair !important;
+}
+
+@layer components {
+  .navbar {
+    @apply flex justify-center text-sm text-black place-items-center mx-2 hover:cursor-pointer;
+  }
+}
